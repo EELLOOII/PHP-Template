@@ -1,6 +1,4 @@
-# iQMS
-
-Internal OOP PHP starter kit for building web applications with a clean MVC architecture.
+## Internal OOP PHP starter kit for building web applications with a clean MVC architecture.
 
 ## Features
 
