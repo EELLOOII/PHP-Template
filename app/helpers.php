@@ -20,3 +20,13 @@ function active($path)
 {
     return current_path() === $path ? 'active' : '';
 }
+
+function json_response($status = 200, $data = [])
+{
+    header('Content-Type: application/json');
+
+    return json_encode([
+        'status' => $status,
+        'data' => $data
+    ], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+}
