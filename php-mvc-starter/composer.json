@@ -2,6 +2,7 @@
   "name": "company/iqms",
   "description": "Internal OOP PHP starter kit",
   "type": "project",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "App\\": "app/"
